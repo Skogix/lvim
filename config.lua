@@ -80,8 +80,8 @@ lvim.builtin.treesitter.ensure_installed = {
   "tsx",
   "css",
   "rust",
-  "java",
   "yaml",
+  "java",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -183,3 +183,9 @@ lvim.builtin.treesitter.highlight.enable = true
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+require 'lua/plugins'
+require 'lua/settings'
+require 'lua/mappings'
+require 'lua/lunarvim'
+require 'lua/lsp'
+require 'lua/skogix'

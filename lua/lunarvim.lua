@@ -1,0 +1,11 @@
+lvim.log.level = "warn"
+lvim.format_on_save.enabled = false
+lvim.builtin.autopairs.active = true
+lvim.builtin.alpha.active = true
+lvim.builtin.alpha.mode = "dashboard"
+lvim.builtin.terminal.active = true
+lvim.builtin.treesitter.active = true
+lvim.builtin.treesitter.highlight.enable = true
+lvim.builtin.nvimtree.active = false
+-- lvim.builtin.nvimtree.setup.view.side = "left"
+-- lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
